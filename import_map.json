@@ -1,0 +1,14 @@
+{
+  "imports": {
+    "hono": "https://deno.land/x/hono@v3.12.6/mod.ts",
+    "hono/": "https://deno.land/x/hono@v3.12.6/",
+    "zod": "npm:zod@3.24.1",
+    "@hono/zod-openapi": "npm:@hono/zod-openapi@0.9.5",
+    "@hono/swagger-ui": "npm:@hono/swagger-ui@0.5.0",
+    "stoker": "npm:stoker@1.4.2",
+    "@types/pg": "npm:@types/pg@^8.11.10",
+    "drizzle-kit": "npm:drizzle-kit@^0.30.2",
+    "drizzle-orm": "npm:drizzle-orm@^0.38.4",
+    "pg": "npm:pg@^8.13.1"
+  }
+}

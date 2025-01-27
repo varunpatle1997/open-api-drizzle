@@ -1,0 +1,2 @@
+alias t="deno task start"
+alias l="ls -al"
