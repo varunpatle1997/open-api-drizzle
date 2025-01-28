@@ -13,7 +13,7 @@ export function jsonContent<T extends z.ZodType>(
   };
 }
 
-const IdParamsSchema = z.object({
+export const IdParamsSchema = z.object({
   id: z.coerce.number().openapi({
     param: {
       name: "id",
@@ -24,5 +24,3 @@ const IdParamsSchema = z.object({
     example: 42,
   }),
 });
-
-export default IdParamsSchema;

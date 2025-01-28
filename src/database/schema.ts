@@ -21,6 +21,9 @@ export const userInsertSchema = createInsertSchema(users, { name: schema => sche
   .required({ name: true })
   .omit({ id: true });
 
+
+export const userPatchSchema = userInsertSchema.partial(); 
+
 export const dinosaurs = pgTable("dinosaurs", {
   id: serial().primaryKey().notNull(),
   name: text(),
